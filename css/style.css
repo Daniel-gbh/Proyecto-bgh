@@ -1,5 +1,9 @@
+*{
+    padding: 0px;
+    margin: px;
+}
 body{
-    background: url("../img/background1.jpg");
+    background-image:url("../img/background1.jpg");
 }
 .site-header{
     display: flex;
@@ -24,13 +28,6 @@ body{
     color: white;
     font-size: 18px;
     margin: 4px 10px;
-}
-.site-nav span{
-    width: 2%;
-    margin: 2.3% 1.7% 0% 1%;
-    font-family: "ProximaNova", semibold;
-    color: white;
-    font-size: 23px;
 }
 .site-container-button{
     display: flex;
