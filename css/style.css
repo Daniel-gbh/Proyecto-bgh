@@ -1,5 +1,6 @@
 body{
     background-image: url(../img/background1.jpg);
+    background-size: 100%;
 }
 .site-nav{
     display: flex;
@@ -18,4 +19,25 @@ body{
     font-family: "ProximaNova", semibold;
     color: white;
     font-size: 23px;
+}
+.site-container-button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border-radius: 25px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    margin: auto 10px;
+    font-family: "ProximaNova";
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background: white;
+    color: black;
 }
