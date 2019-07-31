@@ -1,17 +1,29 @@
 body{
-    background-image: url(../img/background1.jpg);
-    background-size: 100%;
+    background: url("../img/background1.jpg");
 }
-.site-nav{
+.site-header{
     display: flex;
     flex-direction: row-reverse;
-    width: 100%;
-    height: auto;
+    padding: 10px;
 }
-.site-nav img{
-    width: 2%;
-    margin: 2% 3% 0% 1%;
+.site-menu-btn{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80px;
+    height: auto;
+    background: transparent;
+    border: none;
     cursor: pointer;
+    outline: none;
+}
+.site-menu-btn img{
+    width: 40%;
+}
+.site-menu-btn span{
+    font-family: "ProximaNova";
+    color: white;
+    font-size: 18px;
+    margin: 4px 10px;
 }
 .site-nav span{
     width: 2%;
